@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  flex: 1;
+  flex-direction: column;
+  min-height: 120vh;
+  background-color: black;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #353941;
+}
+
+.Logo {
+  width: 100px;
+  height: auto;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  width: 20%;
+}
+
+.casa,
+.lupa,
+.perfil,
+.carr {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.usu{
+  width: 200px;
+  height: auto;
+}
+
+.per {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.botao {
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+}
+
+.botao:hover {
+  background-color: #45a049; 
+}
+
+
+
+
+
